@@ -1,0 +1,27 @@
+{
+  "name": "langing-page",
+  "version": "1.0.0",
+  "description": "Landing page for La casa del topografo",
+  "main": "index.js",
+  "scripts": {
+    "build:analytics": "esbuild scripts/analytics.js --bundle --outfile=scripts/analytics.bundle.js --format=iife --platform=browser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitchboy-2112/langing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitchboy-2112/langing-page/issues"
+  },
+  "homepage": "https://github.com/bitchboy-2112/langing-page#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
