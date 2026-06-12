@@ -11,9 +11,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  
 </head>
 <body>
+
   <!-- Header -->
   <header class="header" id="header">
     <div class="container header-container">
@@ -25,15 +25,17 @@
       <nav class="nav" id="nav">
         <ul class="nav-list">
           <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
           <li><a href="#servicios" class="nav-link">Servicios</a></li>
           <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#servicio-tecnico" class="nav-link">Servicio Técnico</a></li>
           <li><a href="#noticias" class="nav-link">Noticias</a></li>
           <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
           <li><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
       </nav>
       
-      <a href="" class="btn btn-primary header-cta">Cotizar</a>
+      
       
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
         <span class="hamburger"></span>
@@ -45,8 +47,10 @@
   <div class="mobile-menu" id="mobileMenu">
     <ul class="mobile-nav-list">
       <li><a href="#inicio" class="mobile-nav-link">Inicio</a></li>
+      <li><a href="#nosotros" class="mobile-nav-link">Nosotros</a></li>
       <li><a href="#servicios" class="mobile-nav-link">Servicios</a></li>
       <li><a href="#productos" class="mobile-nav-link">Productos</a></li>
+      <li><a href="#servicio-tecnico" class="mobile-nav-link">Servicio Técnico</a></li>
       <li><a href="#noticias" class="mobile-nav-link">Noticias</a></li>
       <li><a href="#ubicacion" class="mobile-nav-link">Ubicación</a></li>
       <li><a href="#contacto" class="mobile-nav-link">Contacto</a></li>
@@ -59,12 +63,12 @@
       <div class="container hero-container">
         <div class="hero-content">
           <h1 class="hero-title">
-            Todo para el topografo <span class="text-orange">en un solo lugar</span>
+            Todo para el topografo <span class="text-gold">en un solo lugar</span>
           </h1>
           <p class="hero-description">
-           Venta, reparación y calibración con respaldo técnico confiable para garantizar precisión en cada proyecto.
+            Venta, reparación y calibración con respaldo técnico confiable para garantizar precisión en cada proyecto.
           </p>
-          <a href="#productos" class="btn btn-primary btn-lg">
+          <a href="./Assets/catalogos/CATALOGO OFICIAL LA CASA DEL TOPOGRAFO DIGITAL-1.pdf" class="btn btn-primary btn-lg">
             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
             </svg>
@@ -79,12 +83,122 @@
       </div>
     </section>
 
+    <!-- ==============================
+         MISIÓN & VISIÓN SECTION
+    ================================ -->
+    <section class="mision-vision" id="nosotros">
+      <div class="container">
+        <div class="mv-header">
+          <span class="mv-eyebrow">Quiénes somos</span>
+          <h2 class="section-title">Nuestra <span class="text-gold">esencia</span></h2>
+          <p class="section-subtitle">
+            Más de una década siendo el aliado estratégico de topógrafos, ingenieros y constructores en Nicaragua.
+          </p>
+        </div>
+
+        <div class="mv-grid">
+          <!-- Misión -->
+          <div class="mv-card mv-card--mision">
+            <div class="mv-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="6"/>
+                <circle cx="12" cy="12" r="2"/>
+              </svg>
+            </div>
+            <h3 class="mv-card-label">Misión</h3>
+            <h4 class="mv-card-title">Precisión al servicio del progreso</h4>
+            <p class="mv-card-text">
+              Proveer equipos de topografía, accesorios y servicios técnicos de la más alta calidad, respaldando a profesionales y empresas con asesoría especializada, garantizando la exactitud y confiabilidad que cada proyecto demanda.
+            </p>
+            <ul class="mv-values">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check"><path d="M20 6L9 17l-5-5"/></svg>
+                Calidad certificada
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check"><path d="M20 6L9 17l-5-5"/></svg>
+                Soporte técnico real
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check"><path d="M20 6L9 17l-5-5"/></svg>
+                Entrega oportuna
+              </li>
+            </ul>
+          </div>
+
+          <!-- Divisor central -->
+          <div class="mv-divider" aria-hidden="true">
+            <div class="mv-divider-line"></div>
+            <div class="mv-divider-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <div class="mv-divider-line"></div>
+          </div>
+
+          <!-- Visión -->
+          <div class="mv-card mv-card--vision">
+            <div class="mv-card-icon mv-card-icon--vision">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+            </div>
+            <h3 class="mv-card-label mv-card-label--vision">Visión</h3>
+            <h4 class="mv-card-title">Liderar la topografía en Centroamérica</h4>
+            <p class="mv-card-text">
+              Ser la empresa referente en distribución, mantenimiento y capacitación de equipos de topografía en Nicaragua y Centroamérica, reconocida por la excelencia técnica, la innovación continua y el compromiso con el éxito de nuestros clientes.
+            </p>
+            <ul class="mv-values">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check mv-check--vision"><path d="M20 6L9 17l-5-5"/></svg>
+                Expansión regional
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check mv-check--vision"><path d="M20 6L9 17l-5-5"/></svg>
+                Innovación tecnológica
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="mv-check mv-check--vision"><path d="M20 6L9 17l-5-5"/></svg>
+                Formación continua
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Valores strip -->
+        <div class="valores-strip">
+          <div class="valor-item">
+            <span class="valor-num">01</span>
+            <span class="valor-label">Precisión</span>
+          </div>
+          <div class="valor-sep" aria-hidden="true"></div>
+          <div class="valor-item">
+            <span class="valor-num">02</span>
+            <span class="valor-label">Confianza</span>
+          </div>
+          <div class="valor-sep" aria-hidden="true"></div>
+          <div class="valor-item">
+            <span class="valor-num">03</span>
+            <span class="valor-label">Compromiso</span>
+          </div>
+          <div class="valor-sep" aria-hidden="true"></div>
+          <div class="valor-item">
+            <span class="valor-num">04</span>
+            <span class="valor-label">Innovación</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Features Section -->
     <section class="features" id="servicios">
       <div class="container">
-        <h2 class="section-title">¿Por qué elegir <span class="text-orange">la casa del topografo</span>?</h2>
+        <h2 class="section-title">¿Por qué elegir <span class="text-gold">la casa del topografo</span>?</h2>
         <p class="section-subtitle">
-            No solo vendemos equipos. Te damos la precision, el respaldo y la confianza que tu trabajo exige
+          No solo vendemos equipos. Te damos la precisión, el respaldo y la confianza que tu trabajo exige.
         </p>
         
         <div class="features-grid">
@@ -108,7 +222,7 @@
             </div>
             <h3 class="feature-title">Stock Siempre Disponible</h3>
             <p class="feature-description">
-             Contamos con equipos de topografía para atender proyectos de cualquier tamaño con precisión y eficiencia.
+              Contamos con equipos de topografía para atender proyectos de cualquier tamaño con precisión y eficiencia.
             </p>
           </div>
           
@@ -134,7 +248,7 @@
           <div>
             <h2 class="section-title text-left">Nuestro Catálogo</h2>
             <p class="section-subtitle text-left">
-              Explora nuestra amplia gama de productos que harán tus obras más sencillas. En tu ferretería de confianza.
+              Explora nuestra amplia gama de productos que harán tus obras más sencillas.
             </p>
           </div>
           <a href="#" class="btn btn-outline">Consultar Catálogo Completo</a>
@@ -142,12 +256,10 @@
         
         <div class="catalog-grid">
           <div class="catalog-card catalog-card-featured">
-            <img src="./Assets/item-1.jpeg" alt="Herramientas eléctricas" class="catalog-image">
+            <img src="./Assets/item-1.jpeg" alt="Cinta métrica de fibra de vidrio" class="catalog-image">
             <div class="catalog-content">
               <h3 class="catalog-title">Cinta metrica de fibra de vidrio</h3>
-              <p class="catalog-description">
-                
-              </p>
+              <p class="catalog-description"></p>
               <a href="#" class="catalog-link">
                 Ver productos
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -158,12 +270,10 @@
           </div>
           
           <div class="catalog-card">
-            <img src="./Assets/item-2.jpeg" alt="Materiales de obra gris" class="catalog-image">
+            <img src="./Assets/item-2.jpeg" alt="Estacion Total T3" class="catalog-image">
             <div class="catalog-content">
               <h3 class="catalog-title">Estacion Total T3</h3>
-              <p class="catalog-description">
-                INCLUYE: Estacion total T3, tripode, prisma y baston
-              </p>
+              <p class="catalog-description">INCLUYE: Estacion total T3, tripode, prisma y baston</p>
               <a href="#" class="catalog-link">
                 Ver productos
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -174,12 +284,10 @@
           </div>
           
           <div class="catalog-card">
-            <img src="./Assets/item-3.jpeg" alt="Acabados y pinturas" class="catalog-image">
+            <img src="./Assets/item-3.jpeg" alt="PRECISE X - GNSS" class="catalog-image">
             <div class="catalog-content">
               <h3 class="catalog-title">PRECISE X - GNSS</h3>
-              <p class="catalog-description">
-                INCLUYE: Receptor base, receptor rover, tripode,.....
-              </p>
+              <p class="catalog-description">INCLUYE: Receptor base, receptor rover, tripode,....</p>
               <a href="#" class="catalog-link">
                 Ver productos
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -189,6 +297,431 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ==============================
+         SERVICIO TÉCNICO SECTION
+    ================================ -->
+    <section class="servicio-tecnico" id="servicio-tecnico">
+      <div class="container">
+        <div class="st-header">
+          <span class="mv-eyebrow mv-eyebrow--light">Centro especializado</span>
+          <h2 class="section-title section-title--light">Servicio <span class="text-gold">Técnico</span></h2>
+          <p class="section-subtitle section-subtitle--light">
+            Reparación, calibración, tutoriales y accesorios — todo el soporte que necesita tu equipo.
+          </p>
+        </div>
+
+        <!-- Tabs navigation -->
+        <div class="st-tabs" role="tablist" aria-label="Secciones de servicio técnico">
+          <button class="st-tab st-tab--active" role="tab" aria-selected="true" aria-controls="tab-reparacion" id="btn-reparacion" data-tab="reparacion">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="st-tab-icon">
+              <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+            </svg>
+            Reparación
+          </button>
+          <button class="st-tab" role="tab" aria-selected="false" aria-controls="tab-tutoriales" id="btn-tutoriales" data-tab="tutoriales">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="st-tab-icon">
+              <polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+            Tutoriales
+          </button>
+          <button class="st-tab" role="tab" aria-selected="false" aria-controls="tab-accesorios" id="btn-accesorios" data-tab="accesorios">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="st-tab-icon">
+              <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+            </svg>
+            Accesorios
+          </button>
+          <button class="st-tab" role="tab" aria-selected="false" aria-controls="tab-calibracion" id="btn-calibracion" data-tab="calibracion">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="st-tab-icon">
+              <path d="M12 22V12m0 0V2m0 10H2m10 0h10"/><circle cx="12" cy="12" r="3"/>
+            </svg>
+            Calibración
+          </button>
+        </div>
+
+        <!-- Tab panels -->
+        <div class="st-panels">
+
+          <!-- Panel: Reparación -->
+          <div class="st-panel st-panel--active" id="tab-reparacion" role="tabpanel" aria-labelledby="btn-reparacion">
+            <div class="st-reparacion-grid">
+              <div class="st-rep-info">
+                <h3 class="st-panel-title">Taller técnico certificado</h3>
+                <p class="st-panel-text">
+                  Contamos con técnicos especializados en equipos de topografía y geodesia. Reparamos estaciones totales, niveles, GPS/GNSS y accesorios de todas las marcas.
+                </p>
+                <div class="st-rep-steps">
+                  <div class="st-step">
+                    <div class="st-step-num">01</div>
+                    <div>
+                      <strong>Diagnóstico gratuito</strong>
+                      <p>Evaluamos tu equipo sin costo y te entregamos un presupuesto detallado.</p>
+                    </div>
+                  </div>
+                  <div class="st-step">
+                    <div class="st-step-num">02</div>
+                    <div>
+                      <strong>Reparación certificada</strong>
+                      <p>Usamos repuestos originales y técnicas según estándar del fabricante.</p>
+                    </div>
+                  </div>
+                  <div class="st-step">
+                    <div class="st-step-num">03</div>
+                    <div>
+                      <strong>Garantía de servicio</strong>
+                      <p>Cada reparación tiene garantía de 3 meses en mano de obra.</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="https://wa.me/50576104551?text=Hola%2C%20necesito%20reparaci%C3%B3n%20de%20equipo" class="btn btn-gold" target="_blank" rel="noreferrer noopener">
+                  Solicitar diagnóstico
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;">
+                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                  </svg>
+                </a>
+              </div>
+              <div class="st-rep-badges">
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+                  </svg>
+                  <span>Estaciones<br>Totales</span>
+                </div>
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/>
+                  </svg>
+                  <span>GPS /<br>GNSS</span>
+                </div>
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M2 12h20M12 2l-4 10 4 10 4-10-4-10z"/>
+                  </svg>
+                  <span>Niveles<br>Ópticos</span>
+                </div>
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                  </svg>
+                  <span>Drones<br>Topográficos</span>
+                </div>
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+                  </svg>
+                  <span>Radios de<br>Comunicación</span>
+                </div>
+                <div class="st-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                  </svg>
+                  <span>Accesorios<br>y partes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Panel: Tutoriales -->
+          <div class="st-panel" id="tab-tutoriales" role="tabpanel" aria-labelledby="btn-tutoriales">
+            <div class="st-tut-header">
+              <h3 class="st-panel-title">Aprende con nuestros expertos</h3>
+              <p class="st-panel-text">Videos, guías y recursos para dominar tus equipos de topografía.</p>
+            </div>
+
+            <div class="st-tut-filter">
+              <button class="st-filter-btn st-filter-btn--active" data-filter="todos">Todos</button>
+              <button class="st-filter-btn" data-filter="estacion">Estación Total</button>
+              <button class="st-filter-btn" data-filter="gnss">GPS/GNSS</button>
+              <button class="st-filter-btn" data-filter="nivel">Nivel</button>
+              <button class="st-filter-btn" data-filter="software">Software</button>
+            </div>
+
+            <div class="st-tut-grid">
+              <article class="st-tut-card" data-cat="estacion">
+                <div class="st-tut-thumb st-tut-thumb--blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">Estación Total</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Configuración inicial de la Estación Total T3</h4>
+                  <p class="st-tut-meta">12 min · Básico</p>
+                  <a href="https://www.facebook.com/share/p/1BYKkJAWg5/?mibextid=wwXIfr" class="st-tut-link" target="_blank" rel="noreferrer noopener">
+                    Ver tutorial
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+
+              <article class="st-tut-card" data-cat="gnss">
+                <div class="st-tut-thumb st-tut-thumb--gold">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">GPS / GNSS</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Levantamiento con PRECISE X — guía rápida</h4>
+                  <p class="st-tut-meta">18 min · Intermedio</p>
+                  <a href="https://www.facebook.com/share/v/1BJkahmQWu/?mibextid=wwXIfr" class="st-tut-link" target="_blank" rel="noreferrer noopener">
+                    Ver tutorial
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+
+              <article class="st-tut-card" data-cat="nivel">
+                <div class="st-tut-thumb st-tut-thumb--teal">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">Nivel</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Nivelación geométrica: técnica y errores comunes</h4>
+                  <p class="st-tut-meta">9 min · Básico</p>
+                  <a href="#" class="st-tut-link">
+                    Próximamente
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+
+              <article class="st-tut-card" data-cat="software">
+                <div class="st-tut-thumb st-tut-thumb--navy">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">Software</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Procesamiento de datos con AutoCAD Civil 3D</h4>
+                  <p class="st-tut-meta">25 min · Avanzado</p>
+                  <a href="#" class="st-tut-link">
+                    Próximamente
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+
+              <article class="st-tut-card" data-cat="estacion">
+                <div class="st-tut-thumb st-tut-thumb--blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">Estación Total</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Mantenimiento preventivo: limpieza de lentes y prismas</h4>
+                  <p class="st-tut-meta">7 min · Básico</p>
+                  <a href="#" class="st-tut-link">
+                    Próximamente
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+
+              <article class="st-tut-card" data-cat="gnss">
+                <div class="st-tut-thumb st-tut-thumb--gold">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="st-tut-play-icon">
+                    <circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/>
+                  </svg>
+                  <span class="st-tut-badge">GPS / GNSS</span>
+                </div>
+                <div class="st-tut-info">
+                  <h4 class="st-tut-title">Corrección diferencial RTK en campo</h4>
+                  <p class="st-tut-meta">20 min · Avanzado</p>
+                  <a href="#" class="st-tut-link">
+                    Próximamente
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-arrow"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="st-tut-cta">
+              <p>¿Necesitas un tutorial específico?</p>
+              <a href="https://wa.me/50576104551?text=Hola%2C%20me%20gustar%C3%ADa%20un%20tutorial%20sobre..." class="btn btn-outline-light" target="_blank" rel="noreferrer noopener">Solicitar contenido</a>
+            </div>
+          </div>
+
+          <!-- Panel: Accesorios -->
+          <div class="st-panel" id="tab-accesorios" role="tabpanel" aria-labelledby="btn-accesorios">
+            <div class="st-acc-header">
+              <h3 class="st-panel-title">Accesorios y repuestos</h3>
+              <p class="st-panel-text">Completa tu equipo con los accesorios correctos. Stock disponible para entrega inmediata.</p>
+            </div>
+
+            <div class="st-acc-grid">
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <line x1="12" y1="2" x2="12" y2="22"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Trípodes de aluminio</h4>
+                <p class="st-acc-desc">Para estaciones totales, niveles y GPS. Varios tamaños disponibles.</p>
+                <span class="st-acc-badge">En stock</span>
+              </div>
+
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Prismas y bastones</h4>
+                <p class="st-acc-desc">Prismas circulares y rectangulares con bastón extensible.</p>
+                <span class="st-acc-badge">En stock</span>
+              </div>
+
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Baterías y cargadores</h4>
+                <p class="st-acc-desc">Compatibles con las principales marcas: Leica, Topcon, Trimble y Precise.</p>
+                <span class="st-acc-badge">En stock</span>
+              </div>
+
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Manuales técnicos</h4>
+                <p class="st-acc-desc">Documentación oficial en español para equipos de uso profesional.</p>
+                <span class="st-acc-badge st-acc-badge--info">Descarga digital</span>
+              </div>
+
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Estuches y maletines</h4>
+                <p class="st-acc-desc">Transporte seguro con protección contra golpes, polvo y humedad.</p>
+                <span class="st-acc-badge">En stock</span>
+              </div>
+
+              <div class="st-acc-card">
+                <div class="st-acc-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/><path d="M5.45 5.11L2 12v6a2 2 0 002 2h16a2 2 0 002-2v-6l-3.45-6.89A2 2 0 0016.76 4H7.24a2 2 0 00-1.79 1.11z"/>
+                  </svg>
+                </div>
+                <h4 class="st-acc-name">Cintas y plomadas</h4>
+                <p class="st-acc-desc">Fibra de vidrio y metálicas. Plomadas de distintos pesos para toda aplicación.</p>
+                <span class="st-acc-badge">En stock</span>
+              </div>
+            </div>
+
+            <div class="st-tut-cta">
+              <p>¿No encuentras el accesorio que buscas?</p>
+              <a href="https://wa.me/50576104551?text=Hola%2C%20busco%20el%20accesorio..." class="btn btn-outline-light" target="_blank" rel="noreferrer noopener">Consultar disponibilidad</a>
+            </div>
+          </div>
+
+          <!-- Panel: Calibración -->
+          <div class="st-panel" id="tab-calibracion" role="tabpanel" aria-labelledby="btn-calibracion">
+            <div class="st-cal-grid">
+              <div class="st-cal-info">
+                <h3 class="st-panel-title">Calibración certificada</h3>
+                <p class="st-panel-text">
+                  La precisión de tu equipo depende de una calibración correcta. Nuestro laboratorio cuenta con patrones trazables para garantizar la exactitud que tu trabajo requiere.
+                </p>
+
+                <div class="st-cal-features">
+                  <div class="st-cal-feat">
+                    <div class="st-cal-feat-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <strong>Certificado oficial</strong>
+                      <p>Emitimos certificado de calibración válido para licitaciones y proyectos oficiales.</p>
+                    </div>
+                  </div>
+                  <div class="st-cal-feat">
+                    <div class="st-cal-feat-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <strong>Entrega en 48 horas</strong>
+                      <p>Tiempo de respuesta rápido para no detener tus proyectos en campo.</p>
+                    </div>
+                  </div>
+                  <div class="st-cal-feat">
+                    <div class="st-cal-feat-icon">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <strong>Ajuste y verificación</strong>
+                      <p>No solo medimos el error — lo corregimos y verificamos antes de devolverlo.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="https://wa.me/50576104551?text=Hola%2C%20necesito%20calibraci%C3%B3n%20de%20equipo" class="btn btn-gold" target="_blank" rel="noreferrer noopener">
+                  Agendar calibración
+                </a>
+              </div>
+
+              <div class="st-cal-table-wrap">
+                <h4 class="st-cal-table-title">Servicios de calibración</h4>
+                <table class="st-cal-table">
+                  <thead>
+                    <tr>
+                      <th>Equipo</th>
+                      <th>Tiempo est.</th>
+                      <th>Certificado</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Estación Total</td>
+                      <td>24 – 48 h</td>
+                      <td><span class="st-yes">✓</span></td>
+                    </tr>
+                    <tr>
+                      <td>Nivel óptico / digital</td>
+                      <td>24 h</td>
+                      <td><span class="st-yes">✓</span></td>
+                    </tr>
+                    <tr>
+                      <td>GPS / GNSS</td>
+                      <td>48 – 72 h</td>
+                      <td><span class="st-yes">✓</span></td>
+                    </tr>
+                    <tr>
+                      <td>Teodolito</td>
+                      <td>24 h</td>
+                      <td><span class="st-yes">✓</span></td>
+                    </tr>
+                    <tr>
+                      <td>Distanciómetro</td>
+                      <td>24 h</td>
+                      <td><span class="st-yes">✓</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /st-panels -->
       </div>
     </section>
 
@@ -203,9 +736,7 @@
             <div class="news-content">
               <span class="news-date">04 de Mayo, 2026</span>
               <h3 class="news-title">Potencia tu trabajo con el kit PRECISE</h3>
-              <p class="news-excerpt">
-                Descubre cuáles son las herramientas que no pueden faltar en tu proyecto.
-              </p>
+              <p class="news-excerpt">Descubre cuáles son las herramientas que no pueden faltar en tu proyecto.</p>
               <a href="https://www.facebook.com/share/p/1BYKkJAWg5/?mibextid=wwXIfr" class="news-link">
                 Leer más
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -216,13 +747,11 @@
           </article>
           
           <article class="news-card">
-            <img src="./Assets/Noticies/nt-2.jpeg" alt="Proteger techos" class="news-image">
+            <img src="./Assets/Noticies/nt-2.jpeg" alt="Nuevos ingresos" class="news-image">
             <div class="news-content">
               <span class="news-date">03 de junio, 2026</span>
               <h3 class="news-title">Nuevos ingresos</h3>
-              <p class="news-excerpt">
-                Estacion total precise T3 - Presicion y tecnologia para profecionales
-              </p>
+              <p class="news-excerpt">Estacion total precise T3 - Precisión y tecnología para profesionales.</p>
               <a href="https://www.facebook.com/share/p/19xcKfu3UA/?mibextid=wwXIfr" class="news-link">
                 Leer más
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -233,13 +762,11 @@
           </article>
           
           <article class="news-card">
-            <img src="./Assets/Noticies/nt-3.jpeg" alt="Tendencias diseño" class="news-image">
+            <img src="./Assets/Noticies/nt-3.jpeg" alt="Promocion Mayo" class="news-image">
             <div class="news-content">
               <span class="news-date">14 de Mayo, 2026</span>
-              <h3 class="news-title">Promocion solo por el mes de Mayo</h3>
-              <p class="news-excerpt">
-                Equipate con tecnologia de  de alta precision para tus proyectos de topografia
-              </p>
+              <h3 class="news-title">Promoción solo por el mes de Mayo</h3>
+              <p class="news-excerpt">Equípate con tecnología de alta precisión para tus proyectos de topografía.</p>
               <a href="https://www.facebook.com/share/v/1BJkahmQWu/?mibextid=wwXIfr" class="news-link">
                 Leer más
                 <svg class="link-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -254,80 +781,78 @@
   </main>
 
   <!-- Map Section -->
-    <section class="map-section" id="ubicacion">
-      <div class="container">
-        <h2 class="section-title">Nuestra Ubicación</h2>
-        <p class="section-subtitle">
-          Visítanos en Los robles, Managua. Monte los olivos 3C al norte,2C al este, 1C 50 VRS al sur.
-        </p>
-        <div class="map-wrapper">
-          <div id="map"></div>
-          <div class="map-info-card">
-            <div class="map-info-item">
-              <div class="map-info-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Dirección</strong>
-                <p>Monte los olivos 3C al norte,2C al este, 1C 50 VRS al sur.</p>
-              </div>
-            </div>
-            <div class="map-info-item">
-              <div class="map-info-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="12" cy="12" r="10"/>
-                  <polyline points="12 6 12 12 16 14"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Horario</strong>
-                <p>Lunes – Viernes: 8:00 am – 5:00 pm</p>
-                <p>Sabado: 8:00 am – 12:00 pm</p>
-              </div>
-            </div>
-            <div class="map-info-item">
-              <div class="map-info-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
-                </svg>
-              </div>
-              <div>
-                <strong>Teléfono</strong>
-                <p>+505 76104551</p>
-              </div>
-            </div>
-            <a href="https://www.google.com/maps/dir/?api=1&destination=11.9087,-86.0996" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-block map-directions-btn">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;">
-                <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+  <section class="map-section" id="ubicacion">
+    <div class="container">
+      <h2 class="section-title">Nuestra Ubicación</h2>
+      <p class="section-subtitle">
+        Visítanos en Los robles, Managua. Monte los olivos 3C al norte, 2C al este, 1C 50 VRS al sur.
+      </p>
+      <div class="map-wrapper">
+        <div id="map"></div>
+        <div class="map-info-card">
+          <div class="map-info-item">
+            <div class="map-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
               </svg>
-              Cómo llegar
-            </a>
+            </div>
+            <div>
+              <strong>Dirección</strong>
+              <p>Monte los olivos 3C al norte, 2C al este, 1C 50 VRS al sur.</p>
+            </div>
           </div>
+          <div class="map-info-item">
+            <div class="map-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Horario</strong>
+              <p>Lunes – Viernes: 8:00 am – 5:00 pm</p>
+              <p>Sábado: 8:00 am – 12:00 pm</p>
+            </div>
+          </div>
+          <div class="map-info-item">
+            <div class="map-info-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Teléfono</strong>
+              <p>+505 76104551</p>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=11.9087,-86.0996" target="_blank" rel="noreferrer noopener" class="btn btn-primary btn-block map-directions-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:18px;height:18px;">
+              <polygon points="3 11 22 2 13 21 11 13 3 11"/>
+            </svg>
+            Cómo llegar
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="footer" id="contacto">
     <div class="container footer-container">
       <div class="footer-info">
         <a href="#" class="logo logo-footer">
-         <img src="./Assets/logo-la casa del topografo.svg" alt="" class="logo-icon">
+          <img src="./Assets/logo-la casa del topografo.svg" alt="" class="logo-icon">
           <span class="logo-text">La casa del topografo</span>
         </a>
         <p class="footer-description">
-         Somos tu aliado en topografía, ofreciendo equipos, accesorios, mantenimiento y soluciones técnicas para garantizar la precisión de tus proyectos.
-        
+          Somos tu aliado en topografía, ofreciendo equipos, accesorios, mantenimiento y soluciones técnicas para garantizar la precisión de tus proyectos.
+        </p>
         <div class="footer-contact">
           <div class="contact-item">
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-              <circle cx="12" cy="10" r="3"/>
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
             </svg>
-            <span>Monte los olivos 3C al norte,2C al este, 1C 50 VRS al sur.</span>
+            <span>Monte los olivos 3C al norte, 2C al este, 1C 50 VRS al sur.</span>
           </div>
           <div class="contact-item">
             <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -356,13 +881,12 @@
             <label for="telefono" class="form-label">Teléfono</label>
             <input type="text" id="telefono" name="telefono" class="form-input" placeholder="No de telefono" required>
           </div>
-
           <div class="form-group">
             <label for="email" class="form-label">Correo de Contacto</label>
             <input type="email" id="email" name="email" class="form-input" placeholder="tu@correo.com" required>
           </div>
           <div class="form-group">
-            <label for="message" class="form-label">Interes</label>
+            <label for="message" class="form-label">Interés</label>
             <textarea id="message" name="message" class="form-input form-textarea" placeholder="¿En qué podemos ayudarte?" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje</button>
@@ -373,12 +897,11 @@
     <div class="footer-bottom">
       <div class="container">
         <p>&copy; 2026 La casa del topografo. Todos los derechos reservados.</p>
-        <!-- Social buttons for small screens -->
         <div class="footer-socials" aria-hidden="false">
           <a href="https://wa.me/50576104551" class="footer-social-link whatsapp" target="_blank" rel="noreferrer noopener" aria-label="WhatsApp">
             <img class="social-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
           </a>
-          <a href=" #" class="footer-social-link facebook" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+          <a href="#" class="footer-social-link facebook" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
             <img class="social-icon" src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook">
           </a>
           <a href="#" class="footer-social-link instagram" target="_blank" rel="noreferrer noopener" aria-label="Instagram">
@@ -418,7 +941,6 @@
   <script src="./scripts/script.js"></script>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script>
-    // Niquinohomo, Masaya, Nicaragua
     const lat = 12.126566766047224, lng = -86.26055362045605;
     const map = L.map('map', { scrollWheelZoom: false }).setView([lat, lng], 16);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -426,7 +948,7 @@
     }).addTo(map);
     const icon = L.divIcon({
       className: '',
-      html: `<div style="background:#f97316;width:36px;height:36px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;">
+      html: `<div style="background:#efb810;width:36px;height:36px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);border:3px solid white;box-shadow:0 2px 8px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;">
                <span style="transform:rotate(45deg);font-size:16px;">🔧</span>
              </div>`,
       iconSize: [36, 36],
@@ -435,7 +957,7 @@
     });
     L.marker([lat, lng], { icon })
       .addTo(map)
-      .bindPopup('<strong>La casa del topografo</strong><br>Monte los olivos 3C al norte,2C al este, 1C 50 VRS al sur.')
+      .bindPopup('<strong>La casa del topografo</strong><br>Monte los olivos 3C al norte, 2C al este, 1C 50 VRS al sur.')
       .openPopup();
   </script>
 </body>

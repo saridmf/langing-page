@@ -294,7 +294,7 @@ ul {
 ======================================== */
 .hero {
   padding-top: 6.5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 14rem;
   background-color: var(--gray-50);
   overflow: hidden;
 }
@@ -365,6 +365,10 @@ ul {
 /* ========================================
    Section Styles
 ======================================== */
+.text-gold {
+  color: var(--orange);
+}
+
 .section-title {
   font-size: 1.75rem;
   font-weight: 700;
@@ -373,12 +377,398 @@ ul {
   margin-bottom: 0.75rem;
 }
 
+.section-title--light {
+  color: var(--white);
+}
+
 .section-subtitle {
   font-size: 1rem;
   color: var(--gray-500);
   text-align: center;
   max-width: 600px;
   margin: 0 auto 2.5rem;
+}
+
+.section-subtitle--light {
+  color: var(--gray-200);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--orange), #ffd76a);
+  color: var(--navy-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-gold:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* ========================================
+   Misión & Visión Section
+======================================== */
+.mision-vision {
+  padding: 5rem 0;
+  background:
+    radial-gradient(circle at top, rgba(239, 184, 16, 0.10), transparent 25%),
+    linear-gradient(180deg, #fffaf0 0%, var(--white) 100%);
+}
+
+.mv-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.mv-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.mv-eyebrow--light {
+  color: #ffd76a;
+}
+
+.mv-grid {
+  display: grid;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.mv-card {
+  position: relative;
+  overflow: hidden;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  border: 1px solid var(--gray-200);
+  background: var(--white);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.mv-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.mv-card--mision {
+  background: linear-gradient(145deg, #ffffff 0%, #fffaf0 100%);
+}
+
+.mv-card--vision {
+  background: linear-gradient(145deg, #0f172a 0%, #1e293b 100%);
+  color: var(--white);
+  border-color: rgba(239, 184, 16, 0.25);
+}
+
+.mv-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background: rgba(239, 184, 16, 0.12);
+  color: var(--orange);
+  margin-bottom: 1rem;
+}
+
+.mv-card-icon svg,
+.mv-card-icon--vision svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.mv-card-icon--vision {
+  background: rgba(239, 184, 16, 0.16);
+  color: #ffd76a;
+}
+
+.mv-card-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.35rem;
+}
+
+.mv-card-label--vision {
+  color: #fff;
+}
+
+.mv-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.mv-card--vision .mv-card-title,
+.mv-card--vision .mv-card-text {
+  color: var(--white);
+}
+
+.mv-card-text {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+}
+
+.mv-values {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.mv-values li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  color: var(--gray-700);
+}
+
+.mv-card--vision .mv-values li {
+  color: var(--gray-100);
+}
+
+.mv-check {
+  width: 1rem;
+  height: 1rem;
+  color: var(--orange);
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.mv-check--vision {
+  color: #ffd76a;
+}
+
+.mv-divider {
+  display: none;
+}
+
+.valores-strip {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.valor-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 1rem;
+  border-radius: 1rem;
+  background: rgba(239, 184, 16, 0.08);
+  border: 1px solid rgba(239, 184, 16, 0.18);
+}
+
+.valor-num {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+
+.valor-label {
+  font-weight: 600;
+  color: var(--navy);
+}
+
+/* ========================================
+   Servicio Técnico Section
+======================================== */
+.servicio-tecnico {
+  padding: 5rem 0;
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.98) 0%, rgba(15, 23, 42, 0.97) 45%, rgba(30, 41, 59, 0.98) 100%);
+}
+
+.st-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.st-tabs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.st-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--gray-100);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.st-tab:hover,
+.st-tab:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-1px);
+}
+
+.st-tab--active {
+  background: linear-gradient(135deg, #ffd76a, var(--orange));
+  color: var(--navy-dark);
+  border-color: transparent;
+  box-shadow: var(--shadow-md);
+}
+
+.st-tab-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.st-panels {
+  display: grid;
+}
+
+.st-panel {
+  display: none;
+}
+
+.st-panel--active {
+  display: block;
+}
+
+.st-reparacion-grid {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.st-rep-info,
+.st-rep-badges,
+.st-tut-card,
+.st-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-md);
+}
+
+.st-panel-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+}
+
+.st-panel-text {
+  font-size: 0.95rem;
+  color: var(--gray-200);
+  margin-bottom: 1rem;
+}
+
+.st-rep-steps {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.st-step {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.85rem;
+  border-radius: 0.9rem;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.st-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 999px;
+  background: rgba(239, 184, 16, 0.16);
+  color: #ffd76a;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.st-step strong {
+  display: block;
+  color: var(--white);
+  margin-bottom: 0.15rem;
+}
+
+.st-step p {
+  color: var(--gray-200);
+  font-size: 0.9rem;
+}
+
+.st-rep-badges {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.st-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 110px;
+  padding: 0.9rem;
+  text-align: center;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06));
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.st-badge svg {
+  width: 1.35rem;
+  height: 1.35rem;
+  color: #ffd76a;
+}
+
+.st-badge span {
+  color: var(--white);
+  font-size: 0.92rem;
+  line-height: 1.3;
+}
+
+.st-tut-header,
+.st-card-list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.st-card-list {
+  gap: 0.75rem;
+}
+
+.st-card ul {
+  display: grid;
+  gap: 0.45rem;
+  padding-left: 1rem;
+}
+
+.st-card li {
+  color: var(--gray-100);
+  font-size: 0.95rem;
 }
 
 /* ========================================
@@ -948,8 +1338,8 @@ ul {
   }
 }
   .hero {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
+    padding-top: 12rem;
+    padding-bottom: 14rem;
   }
 
   .hero-container {
